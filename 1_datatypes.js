@@ -63,18 +63,44 @@ for(var i=0;i<n4;i++){
 }
 console.log(n5);
 // generar un número aleatorio del 0 al 100
-
+console.log(Math.round(Math.random()*100));
 // genera un array de 10 números aleatorios del 0 al 100 y muestra el máximo y mínimo
+var array=[];
+for(var i=0;i<10;i++){
+    array.push(Math.round(Math.random()*100));
+}
+console.log(array);
+var maxNumber=array[0];
+var minNumer=array[0];
+for(var i=0;i<10;i++){
+    if(array[i]<minNumer){
+        minNumer=array[i];
+    }
+
+    if(array[i]>maxNumber){
+        maxNumber=array[i];
+    }
+
+}
+
+console.log("El mas pequeño es: " + minNumer + " y el mas grande es: "+ maxNumber);
 
 // lo mismo que el anterior, pero usando las funciones Math.min y Math.max
-
+console.log("El mas pequeño es: " + Math.min.apply(null,array)+ " y el mas grande es: "+ Math.max.apply(null,array));
 /* Operaciones con strings */
 //crear una cadena de caracteres y convertirla a mayúsculas y minúsculas con los métodos predeterminados destinados para ello
+cadena.toUpperCase;
+console.log(cadena);
+cadena.toLowerCase;
+console.log(cadena);
 
 //reemplazar Pascal por Javascript en la frase "Pascal es un lenguaje de programación moderno"
+var frase = "Pascal es un lenguaje de programación moderno";
 
+console.log(frase.replace('Pascal','JS'));
 //crear una variable con frase/cadena de caracteres y comprobar la longitud
-
+console.log(frase.length);
 //eliminar "script" de la palabra Javascript con el método substr
 
+console.log(frase.substr("script"));
 //comprueba si la frase "Espero que esto me sirva para algo" contiene la palabra "algo"
