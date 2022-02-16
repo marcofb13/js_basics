@@ -42,6 +42,9 @@ if(array1==array2){
 }
 
 
+//ahora comparar el contenido de dichos arrays utilizando un bucle
+
+// crear un objeto "usuario", con tres propiedades
 
 // crear un objeto "usuario", con tres propiedades
 var usuario = {nombre:"Marco", edad:20, sexo:"Hombre"};
@@ -52,6 +55,8 @@ console.log(Math.round(GRAVEDAD));
 //incrementar una variable con otra variable con el operador  =+
 n1=+n2;
 console.log(n1);
+
+//incrementar una variable con otra variable o número con el operador  +=, mostrar por pantalla la primera variable (la incrementada)
 
 //eleva un número a otro utilizando **
 console.log(n3**n4);
