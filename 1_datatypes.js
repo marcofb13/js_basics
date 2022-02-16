@@ -31,7 +31,7 @@ if(cadena===n3){
 }else{
     console.log(false);
 }
-//crear dos arrays con el mismo contenido y comparar si ambos arrays son iguales
+//crear dos arrays con el mismo contenido y comparar con "==" si ambos arrays son iguales
 var array1 =[1,2,3];
 var array2 =[1,2,3];
 
@@ -40,6 +40,9 @@ if(array1==array2){
 }else{
     console.log(false);
 }
+
+
+
 // crear un objeto "usuario", con tres propiedades
 var usuario = {nombre:"Marco", edad:20, sexo:"Hombre"};
 /* Operaciones con números */
