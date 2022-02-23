@@ -2,6 +2,8 @@ console.log("2.functions: 👋 Bienvenidos, en este fichero se harán ejercicios
 
 //Función saludar1, que muestre "Hola, " y un nombre
 
+
+
 //Función saludar2 que devuelva "Hola, " y un nombre
 
 //Función saludar3 igual que la anterior, pero que, en caso de no recibir nombre, devolver "Hola, anónimo"
