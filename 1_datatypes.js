@@ -44,7 +44,17 @@ if(array1==array2){
 
 //ahora comparar el contenido de dichos arrays utilizando un bucle
 
-// crear un objeto "usuario", con tres propiedades
+var iguales=false;
+for(let i =0; i<array1.length;i++){
+    if(array1[i]!=array2[i]){
+
+        iguales=false;
+    }
+
+}
+console.log(iguales);
+
+
 
 // crear un objeto "usuario", con tres propiedades
 var usuario = {nombre:"Marco", edad:20, sexo:"Hombre"};
@@ -69,8 +79,10 @@ for(var i=0;i<n4;i++){
 console.log(n5);
 // generar un número aleatorio del 0 al 100
 console.log(Math.round(Math.random()*100));
+console.log(Math.random().toFixed(2)*101);
+var clo=
 // genera un array de 10 números aleatorios del 0 al 100 y muestra el máximo y mínimo
-var array=[];
+array=[];
 for(var i=0;i<10;i++){
     array.push(Math.round(Math.random()*100));
 }
